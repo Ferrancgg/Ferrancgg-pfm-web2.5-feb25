@@ -1,0 +1,24 @@
+{
+  "name": "besu-network-lib",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "clean": "node src/scripts/cleanNetwork.js"
+  },
+  "bin": {
+    "besu-lib": "./src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
