@@ -1,0 +1,14 @@
+genesis-file="data/genesis.json"
+
+# Configuración de red entre los nodos
+p2p-host="0.0.0.0"
+p2p-port=30303
+p2p-enable=true
+
+# JSON-RPC
+rpc-http-enable=true
+rpc-http-host="0.0.0.0"
+rpc-http-port=8545
+rpc-http-cors-origins=["*"]
+rpc-http-api=["ETH","NET","CLIQUE","ADMIN","TRACE","DEBUG","TXPOOL","PERM"]
+host-allowlist=["*"]
