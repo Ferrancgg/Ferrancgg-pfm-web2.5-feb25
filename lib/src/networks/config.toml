@@ -1,0 +1,16 @@
+genesis-file="../genesis.json"
+
+# Configuración de red entre los nodos
+p2p-host="0.0.0.0"
+p2p-port=30303
+p2p-enable=true
+
+bootnodes=["enode://f559954210371a2c6fec9477ed1421665ba0656b46e994592633a07e7ac66b21a38a17b75faa9e4b23b877d039dc660b8791c1b103824c5313786e6074cbc807@192.168.1.100:30303"]  # Enode del nodo bootnode
+
+# JSON-RPC
+rpc-http-enable=true
+rpc-http-host="0.0.0.0"
+rpc-http-port=8545
+rpc-http-cors-origins=["*"]
+rpc-http-api=["ETH","NET","CLIQUE","ADMIN","TRACE","DEBUG","TXPOOL","PERM"]
+host-allowlist=["*"]
